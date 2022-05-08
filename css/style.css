@@ -1,0 +1,385 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/*boot */
+
+.inline{
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.center{
+  text-align: center;
+}
+
+.block{
+  display: block;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+.w50{
+  width: 50%;
+  margin-right: -4px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+table{
+  width: 100%;
+}
+
+@font-face{
+  src:url("Righteous-Regular.ttf");
+  font-family: "Righteous";
+}
+
+@font-face{
+  src:url("Roboto-Regular.ttf");
+  font-family: "Roboto";
+}
+
+.selectAtivado{
+  background-color: #3EA365 !important;
+}
+
+.ativado{
+  background: #3EA365;
+}
+
+/*fim boot*/
+.empresa{
+  font-family: "Righteous";
+  font-size: 30px !important;
+  line-height: 45px;
+  color: #FFFFFF !important;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bgEco{
+  background: #5ABC80;
+}
+
+.itemNav{
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.menuOpcoes{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.menuOpcoes img{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menuOpcoes:hover{
+  cursor: pointer;
+}
+
+.opcoes{
+  z-index: 5;
+  border: 1px solid #D9D9D9;
+  display: none;
+  border-radius: 2%;
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  padding: 20px;
+  background: #F0F0F0;
+}
+
+.opcoes img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.opcoes a{
+  color: black;
+  font-style: none;
+}
+
+.opcoes a:hover{
+  color: black;
+}
+
+.opcoes p{
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Sistema*/
+
+/*empresas*/
+.empresas input{
+  margin:20px 0;
+}
+
+.empresas input[type=submit]{
+  width: 150px;
+  padding: 5px;
+  background: #3EA365;
+  color: white;
+  border-radius: 3.73333px;
+  float: right;
+}
+/*fim empresas*/
+
+
+/* historico */
+.paginacao{
+  margin: 20px;
+}
+
+/*fim historico*/
+/*dados*/
+.container input{
+  padding: 5px;
+}
+
+.dados .select2{
+  width: 100%;
+}  
+
+.dados .container{
+  margin-top: 30px;
+}
+
+.dados h1, .historico h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+.dados .col-md-6 div{
+  margin:10px 20px;
+}
+
+.first{
+  border-right: 1px solid #D9D9D9;
+}
+
+.dados input{
+  border: 0.877778px solid #C9C9C9;
+  border-radius: 5%;
+  width: 100%;
+}
+
+.dados h2{
+  font-size: 25px;
+}
+
+.dados{
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto";
+  max-width: 780px;
+  width: 80%;
+  display: block;
+  margin: 40px auto;
+  padding: 30px;
+  background: #F0F0F0
+}
+
+.dados textarea{
+  border: 0.877778px solid #C9C9C9;
+  resize: none;
+  width: 100%;
+  height: 182px;
+  padding: 5px;
+}
+
+.enviar{
+  margin: 10px 0;
+}
+
+.enviar input, .enviar a{
+  padding: 2px 5px;
+  background: #3EA365;
+  color: white;
+  border: none;
+  font-family: "Roboto";
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  font-weight: 100;
+}
+
+.enviar a{
+  padding: 10px;
+}
+
+.enviar a:hover{
+  text-decoration: none;
+  color: white;
+}
+/*fim dados*/
+/*tabela*/
+.tabela a{
+  color: black;
+}
+
+.tabela{
+  padding: 20px;
+}
+
+.tabela table tr:not(:first-child){
+  border-bottom: 1px solid #BABABA;
+}
+
+table tr td{
+  text-align: center;
+  padding: 10px;
+}
+
+.tabela i{
+  font-size: 20px;
+}
+
+.tabela table tr:first-child{
+  font-weight: bold;
+}
+/*fim execucao
+
+/*fim info*/
+/* editar usuario */
+.editarUsuario{
+  margin: 20px auto;
+  width: 40%;
+}
+
+.editarUsuario h1{
+  margin-top: 70px;
+}
+
+.editarUsuario img{
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+
+/*fim editarusuario*/
+/* Editar funcionarios */
+.editarFuncionarios div{
+  margin: 20px 0;
+}
+
+.editarFuncionarios table tr td{
+  width: 33.3333%;
+}
+
+.editarFuncionarios table{
+  text-align: center;
+}
+
+.editarFuncionarios input[type=submit]{
+  padding: 2px 5px;
+  background: #3EA365;
+  color: white;
+  border: none;
+  font-family: "Roboto";
+  width: 100px;
+  height: 40px;
+  font-weight: 100;
+}
+
+
+/* fim Editar funcionarios */
+/*Adicionar Funcionario*/
+.adicionarFuncionario{
+  width: 35%;
+}
+
+.adicionarFuncionario form{
+  margin-top: 60px;
+}
+
+.adicionarFuncionario div{
+  margin:10px 20px;
+}
+
+/*fim add funcionario*/
+/*certificados*/
+.certificado div{
+  margin-bottom: 20px;
+}
+
+.certificado input[type=submit]{
+  width: 100%;
+}
+/*fim certificados*/
+/*estoque*/
+.headEstoque li{
+  display: inline-block;
+  margin:10px 20px;
+}
+
+.topEstoque{
+  background-color: rgb(204, 222, 209);
+}
+
+.topGeral{
+  background-color: rgb(180, 194, 185);
+}
+
+/*fim estoque*/
+/*Fim sistema*/
+/*responsivo*/
+@media screen and (max-width: 950px){
+  .menu{
+    display: none;
+  }
+
+  .info{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .execucao{
+    display: none;
+  }
+
+  .dados{
+    margin-bottom: 20px;
+  }
+}

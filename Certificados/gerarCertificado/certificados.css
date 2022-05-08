@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+html, body{
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  font-family: "Arial";
+  font-size: 13px;
+  border: 1px solid white;
+}
+
+.certificado{
+  line-height: 18px;
+  margin-top: 3cm;
+  margin-left: 3cm;
+  margin-right: 2cm;
+  margin-bottom: 2cm;
+}
+
+.certificado div{
+  margin: 20px 0;
+}
+
+.certificado p{
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.certificado h2{
+  font-size: 13px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+/* header */
+.header{
+  height: auto;
+  top: 0.8cm;
+  width: 16cm;
+  position: absolute;
+  left: 3cm;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.header div{
+  height: 50px;
+  width: 33.2%;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.header img{
+  position: relative;
+  top: 2px;
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+/* titulo */
+.titulo{
+  background: rgb(218,218,218);
+  text-align: center;
+}
+
+/* dados gerais */
+.dadosGerais table tr td{
+  border:1px solid black;
+  padding-left: 4px;
+}
+
+.dadosGerais table{
+  width: 100%;
+}
+
+.dadosGerais table tr:first-child{
+  text-align:center;
+  font-weight: bold;
+  background: rgb(218,218,218);
+}
+
+.dadosGerais table tr td:first-child{
+  width: 30%;
+  font-weight: bold;
+  background: rgb(218,218,218);
+}
+
+/*padroes */
+.padroes table{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.padroes table tr:first-child{
+  font-weight: bold;
+  background: rgb(218,218,218);
+}
+
+.padroes table tr td:first-child{
+  width: 40%;
+  padding-left: 4px;
+}
+
+.padroes table tr td:not(:first-child){
+  text-align: center;
+}
+
+.padroes table tr td{
+  width: 20%;
+  border: 1px solid black;
+}
+
+/* dados */
+.dados table{
+  text-align: center;
+  width: 40%;
+  margin: 10px auto 0px;
+}
+
+.dados table tr td{
+  border: 1px solid black;
+}
+
+
+.dados table tr:first-child{
+  font-weight: bold;
+  background: rgb(218,218,218);
+}
+
+.dados table tr td:first-child{
+  font-weight: bold;
+}
+
+.tabelaVelocidade tr td{
+  width: 16.67% !important;
+  text-align: center;
+}
+
+
+/* footer*/
+footer{
+  padding-top: 10px;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  margin-left: 3cm;
+  margin-bottom: 2cm;
+  border-top: 1px solid black;
+  line-height: 18px;
+}
+
+footer p{
+  margin:0 !important;
+}
+
+/* */
+
+/* */

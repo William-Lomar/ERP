@@ -1,0 +1,1 @@
+Criar arquivo logo.png e sgqt.png com a logo da empresa e sistema de qualidade

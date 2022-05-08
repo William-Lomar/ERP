@@ -1,0 +1,7 @@
+Linkar melhor eqp com serviço
+linkar certificado a uma base de dados dos certificados
+Puxar dados do equipamento para certificado do banco 
+Colocar padrão na quantidade de virgulas do certificado
+Validar estimativa de dias com data inicial
+ADM designar serviço
+CNPJ certificado
